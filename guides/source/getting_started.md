@@ -1197,7 +1197,7 @@ it look as follows:
 This time we point the form to the `update` action, which is not defined yet
 but will be very soon.
 
-Passing the article object to the method, will automagically create url for submitting the edited article form.
+Passing the article object to the method, will automagically create a url for submitting the edited article form.
 This option tells Rails that we want this form to be submitted
 via the `PATCH` HTTP method which is the HTTP method you're expected to use to
 **update** resources according to the REST protocol.
